@@ -10,4 +10,4 @@ Launch with:
 
 .. code-block:: console
 
-   $ roslaunch open3d_slam_ros mapping_rosbag_puck.launch play_rate:=1.0 bag_filename:="rosbag_filename*.bag cloud_topic:=/rslidar_points
+   $ roslaunch open3d_slam_ros mapping_rosbag_puck.launch play_rate:=1.0 bag_filename:=*rosbag_filename*.bag cloud_topic:=/rslidar_points
