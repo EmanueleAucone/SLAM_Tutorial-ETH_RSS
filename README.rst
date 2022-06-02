@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
+SLAM Tutorial - ETH RSS
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Tutorial for LiDAR-based SLAM with Open3DSLAM package. 
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+ETH Zürich - Robotics Summer School
