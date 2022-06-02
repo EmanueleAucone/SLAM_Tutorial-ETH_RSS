@@ -6,29 +6,18 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+First, you need to install the open3Dslam package in your ROS catkin workspace: go to the github repository https://github.com/leggedrobotics/open3d_slam and follow the instructions.
+
+Running
+------------
+
+First, download the example rosbags from here:
+*drive folder with rosbags*
+
+Place the rosbag in the data folder inside the open3d_slam_ros package
+
+Launch with:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+   $ roslaunch open3d_slam_ros mapping_rosbag_puck.launch play_rate:=1.0 bag_filename:=*rosbag_filename*.bag cloud_topic:=/rslidar_points
