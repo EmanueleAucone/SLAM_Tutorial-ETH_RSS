@@ -5,7 +5,7 @@ Tutorial about LiDAR-based SLAM with Open3DSLAM
 
 ETH Zürich - Robotics Summer School
 
-Check out the :doc:`usage` section for further information about how to install and the :doc:`parameters` for executing the project.
+Check out the :doc:`usage` section for further information about how to install and execute the project.
 
 .. note::
 
