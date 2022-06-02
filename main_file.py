@@ -10,7 +10,7 @@ class InvalidKindError(Exception):
     pass
 
 
-def get_random_ingredients(kind=None):
+def get_reply(kind=None):
     """
     Return a list of random ingredients as strings.
 
@@ -20,4 +20,4 @@ def get_random_ingredients(kind=None):
     :return: The ingredients list.
     :rtype: list[str]
     """
-    return ["shells", "gorgonzola", "parsley"]
+    return ["reply"]
